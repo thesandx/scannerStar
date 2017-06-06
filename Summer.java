@@ -16,7 +16,7 @@ public class Summer {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Enter the number champ!");
+        System.out.println("Enter the number sandy!");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int i,j,k;
