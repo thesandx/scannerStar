@@ -19,11 +19,13 @@ public class Summer {
         System.out.println("Enter the number champ!");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int i,j;
+        int i,j,k;
         for(i=1;i<n+1;i++){
-            for(j=1;j<i+1;j++){
-                System.out.printf("*",j);
-                
+            for(k=1;k<n-i;k++){
+                System.out.print(" ");
+            }
+            for(j=1;j<i+1;j++){   
+                System.out.printf("*",j);    
             }
             System.out.println();
             
